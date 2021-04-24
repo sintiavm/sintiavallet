@@ -13,7 +13,7 @@ h1 {
     font-size: 2.5em;
 }
 h2 {
-    color: white;
+    color: #7B44F2;
     font-size: 1.5rem;
 }
 
@@ -30,8 +30,7 @@ margin: 1px;
 margin-top: 2px;
 border: 5px 5px;
 box-shadow: 5px 5px 5px  #F2D95C;
-
-}
+width: 100px; height: 100px;
 .currentdate {
 color : white;
 }
