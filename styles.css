@@ -13,13 +13,13 @@ h1 {
     font-size: 2.5em;
 }
 h2 {
-    color: #03658C;
+    color: #8C845D;
     font-size: 1.5rem;
 }
 
 header, footer {
     background-color: #A65656;
-    color: #03658C;
+    color: #8C845D;
     text-align: center;
     padding: 1.5rem;
     
@@ -31,6 +31,7 @@ margin-top: 2px;
 border: 5px 5px;
 box-shadow: 5px 5px 5px  #592525;
 width: 100px; height: 100px;
+}
 .currentdate {
 color : white;
 }
