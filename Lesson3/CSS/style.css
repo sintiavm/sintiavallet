@@ -18,7 +18,7 @@
     }
 }
 body {
-    font-family:"Cudea", "Geneva", sans-serif;
+    font-family: 'Glegoo', serif;
 }
 
 header{
@@ -27,8 +27,8 @@ header{
     margin-right: auto;
     display: block;
     padding: 0.75rem;
-    background-color: #170E57;
-    color: #1ECCCC;
+    background-color: #A65656;
+    color: beige;
     border: solid 3px;
     border-radius: 10px;
 }
@@ -43,12 +43,12 @@ main {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    color: #170E57;
+    color: #A65656;
 }
 
 nav a:hover{
     background-color: white;
-    color: #170E57;
+    color: #A65656;
 }
 nav li a {
     display: block;
@@ -57,7 +57,7 @@ nav li a {
     font-size: 20px;
     padding: 0.75rem;
     border-radius: 30px;
-    border: solid #1ECCCC;
+    border: solid beige;
     color:white;
 }
 
@@ -93,8 +93,8 @@ img {
 
 hr {
     border: none;
-    background-color: #170E57;;
-    color: #170E57;;
+    background-color: #A65656;;
+    color: #A65656;;
     height: 2px;
    }
 
@@ -125,7 +125,7 @@ footer{
     text-align: center;
     margin-top: 10px;
     padding: 0.75rem;
-    background-color: #170E57;
+    background-color: #A65656;
     color: #1ECCCC;
     border: solid 2px;
     border-radius: 10px;
