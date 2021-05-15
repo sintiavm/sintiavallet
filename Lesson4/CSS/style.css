@@ -3,7 +3,6 @@ header, nav {
 	font-family: "Montserrat", Lucida Sans Unicode, sans-serif;
 }
 main, footer {
-}
     font-family: 'Glegoo', serif;
 }
 header,
@@ -15,20 +14,29 @@ footer {
  nav {
 	margin: 0 auto;
 	max-width: 960px;
-	background-color: #07090F;
+	background-color: #A65656;
 }
 .navigation {
     list-style: none;
     text-align: center;
 	padding: 0;
 }
-.navigation li:first-child {
-	display: block;
-}
 .navigation li {
 	display: none;
 }
-.navigation a {
+#menu{
+    margin: 0 auto;
+	max-width: 960px;
+	background-color: #A65656;
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+.navigation a
+ {
 	display: block;
 	padding: 0.75rem;
 	text-align: center;
@@ -53,7 +61,7 @@ footer {
 }
 
 header, footer {
-	background-color: #7FB7BE;
+	background-color: #A65656;
 	padding: 5px 0;
 	display: flex;
 	align-items:center;
@@ -137,7 +145,8 @@ p {
 		font-size: larger;
 		margin-left: 17px;
     }
-
+#menu{ display: none;
+}
     .navigation {
 		display: flex;
 	}
