@@ -1,6 +1,6 @@
 header, nav {
 	font-size: 14px;
-	font-family: "Montserrat", Lucida Sans Unicode, sans-serif;
+	font-family: 'Glegoo', serif;
 }
 main, footer {
     font-family: 'Glegoo', serif;
@@ -21,7 +21,7 @@ nav ul.hide {display: none;}
 #newNav {
     list-style: none;
     text-align: center;
-	padding: 0;
+	padding: 15;
 }
 #newNav li {
 	display: none;
@@ -47,14 +47,14 @@ nav ul.hide {display: none;}
 	font-weight: 700;
 }
 .navigation a:hover {
-	color: #343E3D;
+	color: #A65656;
 	background-color: #FFF2F1;
 }
 .responsive li {
 	display: block;
 }
 .active {
-	color: #DACC3E;
+	color: #A65656;
 }
 
 	body {
@@ -116,7 +116,7 @@ h2 {text-align: center;}
 	height: 110px;
 }
 main img {
-	max-width: 50%;
+	max-width: 100%;
 }
 
 .weathersummary {
