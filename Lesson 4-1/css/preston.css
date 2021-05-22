@@ -1,0 +1,300 @@
+header, nav {
+	font-size: 14px;
+	font-family: 'Glegoo', serif;
+}
+main, footer {
+    font-family: 'Glegoo', serif;
+}
+header,
+main,
+footer {
+	max-width: 960px;
+    margin: 0 auto;
+}
+ nav {
+	margin: 0 auto;
+	max-width: 960px;
+	background-color: #A65656;
+}
+nav li:hover{
+    background-color: rgb(179, 145, 145);
+    color: white;
+}
+nav li:focus{
+    text-decoration: underline;
+    background-color: #F0ebd8;
+    color: beige;
+}
+nav ul.hide {display: none;}
+
+#newNav {
+    list-style: none;
+    text-align: center;
+	padding: 15;
+}
+#newNav li {
+	display: none;
+}
+#menu{
+    margin: 0 auto;
+	max-width: 960px;
+	background-color: #A65656;
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+.navigation a
+ {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #A65656;
+	background-color: #FFF2F1;
+}
+.responsive li {
+	display: block;
+}
+.active {
+	color: #A65656;
+}
+
+	body {
+	padding: 0;
+	margin: 0;
+}
+
+header, footer {
+	background-color: #A65656;
+	padding: 5px 0;
+	display: flexbox;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #FFF2F1;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+	display:block;
+	margin: 10px auto;
+	border: 1px dashed #000;
+	padding: 15px;
+	background-color: #FFF2F1;
+	color: #07090F;
+}
+
+h2 {text-align: center;}
+h3{
+    text-align:center;
+}
+
+.herodiv {
+	position: relative;
+	margin: 10px auto;
+	width: 375px;
+}
+.hero-ph {
+	margin: 10px auto;
+	border: 1px solid #333;
+	width: 98%;
+	height: 110px;
+}
+main img {
+	max-width: 100%;
+}
+
+.weathersummary {
+	border: 1px dashed #000;
+	padding: 15px;
+	background-color: #FFF2F1;
+	color: #07090F;
+	font-size: 14px;
+}
+p {
+	padding: 0;
+	letter-spacing: 0.05rem;
+	line-height: 1;}
+
+
+/* Larger viewports */
+@media only screen and (min-width: 37.5em) {
+	header img {
+		width: 140px;
+	}
+
+	.headings h1 {
+		font-size: 2.5rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+#menu{ display: none;
+}
+#newNav {
+		display: flex;
+	}
+	#newNav li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	#newNav a {
+		text-align: center;
+	}
+	#newNav li:first-child {
+		display: none;
+	}
+	.herodiv {
+		position: relative;
+		margin: 10px auto;
+		width: 750px;
+		height: 300px;
+	}
+	.hero-ph {
+		margin: 10px auto;
+		border: 1px solid #333;
+		width: 98%;
+		height: 220px;
+	}
+
+	.weathersummary {
+		position: absolute;
+		top: 20px;
+		left: 50px;
+		background: #FFF2F1;
+		border: 1px solid #000;
+		padding: .5rem;
+		box-shadow: 0 0 30px #111;
+		opacity: .8;
+	}
+
+  /* Desktop Views ****************************/
+  @media only screen and (min-width: 60em) {
+	header img {
+		width: 100px;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+    #newNav {
+		display: flex;
+	}
+	#newNav li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	#newNav a {
+		text-align: center;
+	}
+	#newNav li:first-child {
+		display: none;
+	}
+	.herodiv {
+		position: relative;
+		margin: 10px auto;
+       	width: 960px;
+		height: 300px;
+	}
+	.hero-ph {
+		margin: 10px auto;
+		border: 1px solid #333;
+        width: 98%;
+		height: 282px;
+	}
+	
+	.weathersummary {
+		position: absolute;
+		top: 20px;
+		left: 50px;
+		background: #FFF2F1;
+		border: 1px solid #A65656;
+		padding: .5rem;
+		box-shadow: 0 0 30px #111;
+		opacity: .8;
+	}
+    #preston-heading{
+        font-family: "fair display";
+        text-align: center;
+        font-size: 2.3em;
+        color:#1D2D44;
+    }
+    #forecast-section{
+        margin: auto;
+        display:flex;
+        flex-direction: row;
+        max-width: 800px;
+    }
+@media only screen and (min-width:1000px)
+{
+.navigation li:first-child{
+    display: none;
+}
+.forecast{
+    padding:10px;
+}
+.forcast-days{
+   padding-bottom:5px;
+   margin:3px;
+}
+div{
+    padding:5px;
+}
+.sun-icon{
+    display: flex;
+    justify-content: center;
+}
+#map-img{
+    float:right;
+    width:150px;
+    margin-top:40px;
+    margin-right:40px;
+}
+#pancakeDay{
+    background-color: #f6d66f;
+    color: #0D1321;
+
+}
+picture{
+    width:100%;
+}
+}
+}
+}
