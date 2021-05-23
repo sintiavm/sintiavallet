@@ -115,6 +115,7 @@ header img {
 h2 {text-align: center;}
 h3{
     text-align:center;
+    font-size: 1.6rem;
 }
 
 .herodiv {
@@ -140,9 +141,32 @@ main img {
 	font-size: 14px;
 }
 p {
-	padding: 0;
+    padding: 0;
 	letter-spacing: 0.05rem;
-	line-height: 1;}
+	line-height: 1;
+}
+
+    #preston-heading{
+        font-family: 'Glegoo', serif;
+        text-align: center;
+        font-size: 2.3em;
+        color:black;
+    }
+    #forecast-section{
+        position: relative;
+        margin: auto;
+        display:flexbox;
+        flex-direction: row;
+        max-width: 1000px;
+    }
+#preston-article{
+    position: relative;
+        margin: auto;
+        flex-direction: row;
+        max-width: 1000px;
+
+
+}
 
 
 /* Larger viewports */
@@ -180,6 +204,13 @@ p {
 		margin: 10px auto;
 		width: 750px;
 		height: 300px;
+    }
+    #forecast-section{
+        position: relative;
+            margin: auto;
+            display:flex;
+            flex-direction: row;
+            max-width: 800px;
 	}
 	.hero-ph {
 		margin: 10px auto;
@@ -254,9 +285,10 @@ p {
         font-family: "fair display";
         text-align: center;
         font-size: 2.3em;
-        color:#1D2D44;
+        color:#be66ab;
     }
     #forecast-section{
+        position: relative;
         margin: auto;
         display:flex;
         flex-direction: row;
