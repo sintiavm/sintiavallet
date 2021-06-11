@@ -1,6 +1,16 @@
 html {
     font-family: 'Ubuntu', sans-serif;
 }
+header, nav {
+	font-size: 25px;
+	margin: 10 auto;
+    padding: 10px 10;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+   
+}
 
 table {
     border: 2px solid #628ca6;
