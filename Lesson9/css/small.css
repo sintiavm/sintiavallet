@@ -134,40 +134,20 @@ main img {
 	max-width: 100%;
 }
 
-.weathersummary {
-	position: relative;
-	border: 1px dashed #000;
-	padding: 15px;
-	background-color: #FFF2F1;
-	color: #07090F;
-	font-size: 14px;
-}
 p {
     padding: 0;
 	letter-spacing: 0.05rem;
 	line-height: 1;
 }
 
-    #preston-heading{
-        font-family: 'Glegoo', serif;
-        text-align: center;
-        font-size: 2.3em;
-        color:black;
-    }
-    #forecast-section{
-        position: relative;
-        margin: auto;
-        display:flexbox;
-        flex-direction: row;
-        max-width: 1000px;
-    }
-#preston-article{
-    position: relative;
-        margin: auto;
-        flex-direction: row;
-        max-width: 1000px;
 
-
+img {
+	width:400px;
+	height:300px;
+	border-radius:9px;
+}
+table
+{position:relative; margin:70px auto; border-spacing:5px;
 }
 
 
