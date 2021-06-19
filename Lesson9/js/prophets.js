@@ -30,4 +30,3 @@ card.appendChild(image);
 document.querySelector('div.cards').appendChild(card);
   }
   });
-

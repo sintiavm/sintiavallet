@@ -1,0 +1,46 @@
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100px;
+	}
+	.headings h1  h3{
+		font-size: 3rem;
+		position: center;
+	}
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+    #newNav {
+		display: flex;
+	}
+   	#newNav li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	#newNav a {
+		text-align: center;
+	}
+	#newNav li:first-child {
+		display: none;
+	}
+	.herodiv {
+		position: relative;
+		margin: 10px auto;
+		width: 100%;
+		height: 450px;
+    }
+   
+.navigation li:first-child{
+    display: none;
+}
+
+div{
+    padding:5px;
+}
+
+picture{
+    width:100%;
+}
+#menu{ display: none;
+}
