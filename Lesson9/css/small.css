@@ -66,6 +66,7 @@ nav ul.hide {display: none;}
 	body {
 	padding: 0;
 	margin: 0;
+	background-color:blanchedalmond;
 }
 
 header, footer {
@@ -121,9 +122,11 @@ h3{
 
 .herodiv {
 	position: relative;
-	margin: 10px auto;
-	width: 375px;
-}
+	margin: 20px auto;
+	width: 400px;
+	border-style:double;
+	background-color: #145374;
+}	
 .hero-ph {
 	margin: 10px auto;
 	border: 1px solid #333;
@@ -132,6 +135,7 @@ h3{
 }
 main img {
 	max-width: 100%;
+	border: cornflowerblue;
 }
 
 p {
@@ -141,7 +145,7 @@ p {
 }
 
 
-img {
+.cards img  {
 	width:400px;
 	height:300px;
 	border-radius:9px;

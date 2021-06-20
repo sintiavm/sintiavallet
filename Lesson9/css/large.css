@@ -1,0 +1,30 @@
+
+.towns.cards section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.towns.cards section {
+    background-color: darkcyan;
+    border: 1px solid wheat;
+    border-radius: 15px;
+}
+
+.towns.cards section h3 {
+    margin-top: 0px;
+}
+
+.towns.cards section p, .town.cards section h4 {
+    text-align: center;
+}
+
+section.town-card0 {
+    order:2;
+}
+section.town-card {
+    order: 3;
+}
+
+
+
