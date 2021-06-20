@@ -1,29 +1,42 @@
 
-.towns.cards section {
-    display:grid;
+.cards {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    
+    
 }
 
-.towns.cards section {
-    background-color: darkcyan;
+.cards section {
+    background-color: #145374;
     border: 1px solid wheat;
     border-radius: 15px;
+    
 }
 
-.towns.cards section h3 {
+.cards section h3 {
     margin-top: 0px;
+    color: white;
+    
 }
 
-.towns.cards section p, .town.cards section h4 {
+.cards section p, .cards section h4 {
     text-align: center;
+    color: white;
 }
 
-section.town-card0 {
+section.card0 {
     order:2;
 }
-section.town-card {
+section.card {
     order: 3;
+}
+#contact-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 0px;
+    
 }
 
 
