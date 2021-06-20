@@ -48,7 +48,19 @@ header img {
 	width: 100px;
 	height: auto;
 }
-.cards img  {
-	width:400px;
-	height:300px;
-	border-radius:9px;
+
+/* cards 
+.cards {
+	grid-template-columns: 1fr;
+	}
+.cards section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	}
+
+.cards section p, .cards section h4 {
+	grid-colum: 1/2;
+}
+img ¨{
+	grid-column: 2/3;
+}*/
