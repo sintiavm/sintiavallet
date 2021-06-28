@@ -48,6 +48,16 @@ header img {
 	width: 100px;
 	height: auto;
 }
+.weathersummary {
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	background: #FFF2F1;
+	border: 1px solid #A65656;
+	padding: .5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+	}
 
 /* cards 
 .cards {
