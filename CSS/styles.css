@@ -1,25 +1,26 @@
 body {
-    font-size: 18px;
-    background-color: #592525;
+    font-size: 16px;
+    background-color: #F2CCB6;
+    font-family: 'Glegoo', serif;
    
 }
 header, nav, main, footer {
 margin: 1.25rem auto;
 max-width: 960px;
-font-family: 'Fraunces', serif;
+color: #F2CCB6;
 }
 h1 {
     font-family: 'Glegoo', serif;
     font-size: 2.5em;
 }
 h2 {
-    color: white;
+    color: #401D15;
     font-size: 1.5rem;
 }
 
 header, footer {
     background-color: #A65656;
-    color: white;
+    color: #F2CCB6;
     text-align: center;
     padding: 1.5rem;
     
@@ -33,5 +34,24 @@ box-shadow: 5px 5px 5px  #592525;
 width: 100px; height: 100px;
 }
 .currentdate {
-color : white;
+color : #F2CCB6;
 }
+
+picture {
+position: absolute;
+top: 50px;
+right: 300px;
+border:5px solid #F2CCB6;
+border-radius: 15px;
+}
+
+ul {
+    color: #401D15;
+    font-size: 1rem; 
+}   
+
+li a {
+    color: #401D15;
+}
+
+
