@@ -1,7 +1,5 @@
 @media only screen and (min-width: 32.5em) {
-	header img {
-		width: 100px;
-	}
+	
 	.headings h1  h3{
 		font-size: 3rem;
 		position: center;
@@ -29,6 +27,7 @@
 		margin: 10px auto;
 		width: 100%;
 		height: 450px;
+		border-radius: 10px;
     }
    
 .navigation li:first-child{
@@ -57,6 +56,7 @@ header img {
 	padding: .5rem;
 	box-shadow: 0 0 30px #111;
 	opacity: .8;
+	border-radius: 10px;
 	}
 
 /* cards 

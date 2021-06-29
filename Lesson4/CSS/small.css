@@ -1,0 +1,174 @@
+body {
+    background-color: #78BF91;
+}
+header, nav {
+	font-size: 14px;
+	font-family: 'Glegoo', serif;
+}
+main, footer {
+    font-family: 'Glegoo', serif;
+}
+header,
+main,
+footer {
+	max-width: 960px;
+    margin: 0 auto;
+}
+ nav {
+	margin: 0 auto;
+	max-width: 960px;
+	background-color: #3CA661;
+	color: #D9D0D6
+}
+nav li:hover{
+    background-color: #78BF91;
+    color: #D9D0D6;
+}
+nav li:focus{
+    text-decoration: underline;
+    background-color: #78BF91;
+    color: #D9D0D6;
+}
+nav ul.hide {display: none;}
+
+#newNav {
+    list-style: none;
+    text-align: center;
+	padding: 15px;
+}
+#menu{
+    margin: 0 auto;
+	max-width: 960px;
+	background-color: #3CA661;
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #D9D0D6;
+	font-weight: 700;
+}
+.navigation a
+ {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #D9D0D6;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #3CA661;
+	background-color: #78BF91;
+}
+.responsive li {
+	display: block;
+}
+.active {
+	color: #78BF91;
+}
+
+	body {
+	padding: 0;
+	margin: 0;
+}
+
+header, footer {
+	background-color: #3CA661;
+	padding: 5px 0;
+	display: flexbox;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+	color:#D9D0D6;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #D9D0D6;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+	display:block;
+	margin: 10px auto;
+	border: 1px dashed #94A6A4;
+	padding: 15px;
+	background-color: #D9D0D6;
+	color: #94A6A4;
+}
+
+h2 {text-align: center;}
+h3{
+    text-align:center;
+    font-size: 1.6rem;
+}
+
+.herodiv {
+	position: relative;
+	margin: 10px auto;
+	width: 375px;
+}
+.hero-ph {
+	margin: 10px auto;
+	border: 1px solid #94A6A4;
+	width: 98%;
+	height: 110px;
+}
+main img {
+	max-width: 100%;
+}
+
+.weathersummary {
+	position: relative;
+	border: 1px dashed #94A6A4;
+	padding: 15px;
+	background-color: #D9D0D6;
+	color: #94A6A4;
+	font-size: 14px;
+}
+p {
+    padding: 0;
+	letter-spacing: 0.05rem;
+	line-height: 1;
+}
+
+    #preston-heading{
+        font-family: 'Glegoo', serif;
+        text-align: center;
+        font-size: 2.3em;
+        color:#D9D0D6;
+    }
+    #forecast-section{
+        position: relative;
+        margin: auto;
+        display:flexbox;
+        flex-direction: row;
+        max-width: 1000px;
+    }
+#preston-article{
+    position: relative;
+        margin: auto;
+        flex-direction: row;
+        max-width: 1000px;
+
+
+}
+
+

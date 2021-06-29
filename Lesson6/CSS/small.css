@@ -14,33 +14,34 @@ footer {
  nav {
 	margin: 0 auto;
 	max-width: 960px;
-	background-color: #A65656;
+	background-color: #3CA661;
+	color: #D9D0D6
 }
 nav li:hover{
-    background-color: rgb(179, 145, 145);
-    color: white;
+    background-color: #78BF91;
+    color: #D9D0D6;
 }
 nav li:focus{
     text-decoration: underline;
-    background-color: #F0ebd8;
-    color: beige;
+    background-color: #78BF91;
+    color: #D9D0D6;
 }
 nav ul.hide {display: none;}
 
 #newNav {
     list-style: none;
     text-align: center;
-	padding: 15;
+	padding: 15px;
 }
 #menu{
     margin: 0 auto;
 	max-width: 960px;
-	background-color: #A65656;
+	background-color: #3CA661;
     display: block;
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #D9D0D6;
 	font-weight: 700;
 }
 .navigation a
@@ -49,18 +50,18 @@ nav ul.hide {display: none;}
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #D9D0D6;
 	font-weight: 700;
 }
 .navigation a:hover {
-	color: #A65656;
-	background-color: #FFF2F1;
+	color: #3CA661;
+	background-color: #78BF91;
 }
 .responsive li {
 	display: block;
 }
 .active {
-	color: #A65656;
+	color: #78BF91;
 }
 
 	body {
@@ -69,7 +70,7 @@ nav ul.hide {display: none;}
 }
 
 header, footer {
-	background-color: #A65656;
+	background-color: #3CA661;
 	padding: 5px 0;
 	display: flexbox;
 	align-items:center;
@@ -91,22 +92,23 @@ header img {
 .headings h1 {
 	font-size: 1.6rem;
 	margin: 0 0 0 17px;
+	color:#D9D0D6;
 }
 
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: #FFF2F1;
+	color: #D9D0D6;
 	margin-left: 20px;
 	font-size: .9rem;
 }
 .contentbox {
 	display:block;
 	margin: 10px auto;
-	border: 1px dashed #000;
+	border: 1px dashed #94A6A4;
 	padding: 15px;
-	background-color: #FFF2F1;
-	color: #07090F;
+	background-color: #D9D0D6;
+	color: #94A6A4;
 }
 
 h2 {text-align: center;}
@@ -122,7 +124,7 @@ h3{
 }
 .hero-ph {
 	margin: 10px auto;
-	border: 1px solid #333;
+	border: 1px solid #94A6A4;
 	width: 98%;
 	height: 110px;
 }
@@ -132,10 +134,10 @@ main img {
 
 .weathersummary {
 	position: relative;
-	border: 1px dashed #000;
+	border: 1px dashed #94A6A4;
 	padding: 15px;
-	background-color: #FFF2F1;
-	color: #07090F;
+	background-color: #D9D0D6;
+	color: #94A6A4;
 	font-size: 14px;
 }
 p {
@@ -148,7 +150,7 @@ p {
         font-family: 'Glegoo', serif;
         text-align: center;
         font-size: 2.3em;
-        color:black;
+        color:#D9D0D6;
     }
     #forecast-section{
         position: relative;

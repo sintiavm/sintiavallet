@@ -154,4 +154,11 @@ footer a{
     text-decoration: underline;
 }
 
+picture{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+
 
