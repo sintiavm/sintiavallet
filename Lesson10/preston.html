@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script defer src="js/preston-10.js"></script>
+    
       <title>Preston Town Page</title>
   </head>
   <body>
@@ -29,7 +29,7 @@
               <li><a href="#">Preston</a></li>
               <li><a href="#">Soda Springs</a></li>
               <li><a href="#">Fish Haven</a></li>
-              <li><a href="#">Storm Center</a></li>
+              <li><a href="stormcenter.html">Storm Center</a></li>
               <li><a href="#">Gallery</a></li>
           </ul>
       </nav>
@@ -40,12 +40,12 @@
         <figcaption>
         <img src="images/preston.jpeg"></div>
         <section class="weathersummary">
-          <h3>Weather Summary</h3>
-          <p>Highty: 76 F°</p>
-          <p>Currently: Sunny</p>
-          <p>Wind Direction: Northward</p>
-          <p>Humidity: 60%</p>
-          <p>Wind Speed: 6 mph</p>
+          <h3  id= "weather" > Weather Summary </h3>
+          <p> High:<div id= "High" ></div> </p>
+          <p> Currently:  <div id= "Currently"></div></p>
+          <p>  Northward <div  id= "Wind"> Wind Direction: </div></p>
+          <p> Humidity: <div id= "Humidity" ></div></p>
+          <p> Wind Speed:  <div id= "Speed"> </div> </P>
        </figcaption>
      </figure>
      </section>
@@ -86,3 +86,4 @@
     <script type="text/javascript" src="/JS/time.js"></script>
   </body>
   </html>  
+  <script defer src="js/weatherapi.js"></script>

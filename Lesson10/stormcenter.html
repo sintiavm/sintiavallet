@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Lesson8/CSS/stormcenter.css" rel="stylesheet">
+    <script  src="../JS/stormcenter.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+  <picture>
+    <img src="images/icon.png" alt="weather logo">
+  </picture>
+  <section class="headings">
+    <h1>Storm Center Page</h1>
+</section>
+</header>
+<nav>
+     <ul id="newNav" class="hide">
+        <li><a href="./Lesson9/home-wireframes.html" class="active">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <legend>Reporter Information!</legend>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label">Full Name</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+           <div class="form-group">
+      <label class="col-md-4 control-label">E-Mail</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+        </div>
+      </div>
+      </div>
+    
+    
+    <!-- Text input-->
+           
+    <div class="form-group">
+      <label class="col-md-4 control-label">Phone Nº</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+      <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label">Zip Code</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+      <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+        </div>
+    </div>
+    </div>
+</div>
+
+</fieldset>
+</form>
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Storm Details</legend>
+    <div class="form-group">
+      <label class="col-md-4 control-label">Storm Date</label>  
+       <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+      <input name="website" placeholder="Storm Date" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-4 control-label">Storm Type</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+        <input name="email" placeholder="Storm Type" class="form-control"  type="text">
+          </div>
+        </div>
+        </div>
+        <fieldset>
+            <label class="flexly" for="rating">Storm Severity (1 - 10): 5: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </label>
+    
+            <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+            </datalist>
+            </fieldset>
+            <div class="form-group"> 
+                <label class="col-md-4 control-label">Storm Region</label>
+                  <div class="col-md-4 selectContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                  <select name="Storm Region" class="form-control selectpicker" >
+                    <option value=" " >Please Select Regions</option>
+                    <option> Preston</option>
+                    <option>Soda Springs</option>
+                    <option >Fish Haven</option>
+                    
+                  </select>
+                </div>
+              </div>
+              </div>
+            </fieldset>
+        </form>
+    
+    <!-- radio checks -->
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Storm Details</legend>
+     <div class="form-group">
+                            <label class="col-md-4 control-label">Are You in Danger?</label>
+                            <div class="col-md-4">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="hosting" value="yes" /> Yes
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="hosting" value="no" /> No
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="hosting" value="yes" /> Maybe
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+    
+    <!-- Text area -->
+      
+    <div class="form-group">
+      <label class="col-md-4 control-label">Additional Comments</label>
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                <textarea class="form-control" name="Additional Comments" placeholder="Aditional Information"></textarea>
+      </div>
+      </div>
+    </div>
+</fieldset>
+</form>
+    <!-- Success message -->
+    <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+      </div>
+    </div>
+    
+    
+    </div>
+        </div><!-- /.container -->
+        <footer>
+            &copy; | Sintia V. Marin| <a href="https://www.byui.edu/online"
+              id="byui">BYU-I Online Learning</a>
+            
+          </footer>  
+</body>
+</html>
