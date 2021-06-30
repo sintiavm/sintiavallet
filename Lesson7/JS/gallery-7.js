@@ -40,3 +40,11 @@ imagesToLoad.forEach((img) => {
       loadImages(img);
     });
   } 
+  function toggleMenu()  {
+    console.log(document.getElementById("newNav").classList)
+    document.getElementById("newNav").classList.toggle("hide");
+}
+let updateLast = document.lastModified
+document.getElementById('lastUpdate').innerHTML = updateLast
+let fullYear = new Date().getFullYear();
+document.getElementById("year").innerHTML = fullYear;

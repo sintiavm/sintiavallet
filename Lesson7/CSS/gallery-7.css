@@ -1,4 +1,9 @@
 
+body {
+    background-color: #78BF91;
+	padding: 0;
+	margin: 0;
+}
 header, nav {
 	font-size: 14px;
 	font-family: 'Glegoo', serif;
@@ -7,22 +12,30 @@ main, footer {
     font-family: 'Glegoo', serif;
 }
 header,
+main,
+footer {
+	max-width: 960px;
+    margin: 0 auto;
+}
+header,
 footer {
 	max-width: 960px;
     margin: 0 auto;
 }
 header, footer {
-	background-color: #A65656;
+	background-color: #3CA661;
 	padding: 5px 0;
-	display: flex;
+	display: flexbox;
 	align-items:center;
 	justify-content:center;
 	text-align: center;
 }
 .m {
-	letter-spacing: 1.5pt;
-	font-size: larger;
-	margin-left: 17px;
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #D9D0D6;
+	margin-left: 20px;
+	font-size: .9rem;
 }
 header img {
 	width: 100px;
@@ -34,38 +47,40 @@ header img {
 nav {
 	margin: 0 auto;
 	max-width: 960px;
-	background-color: #A65656;
+	background-color: #3CA661;
+	color: #D9D0D6
 }
 nav li:hover{
-    background-color: rgb(179, 145, 145);
-    color: white;
+    background-color: #78BF91;
+    color: #D9D0D6;
 }
 nav li:focus{
     text-decoration: underline;
-    background-color: #F0ebd8;
-    color: beige;
+    background-color: #78BF91;
+    color: #D9D0D6;
 }
 nav {
 	margin: 0 auto;
 	max-width: 960px;
-	background-color: #A65656;
+	background-color: #3CA661;
+	color: #D9D0D6
 }
 nav ul.hide {display: none;}
 
 #newNav {
     list-style: none;
     text-align: center;
-	padding: 15;
+	padding: 15px;
 }
 #menu{
     margin: 0 auto;
 	max-width: 960px;
-	background-color: #A65656;
+	background-color: #3CA661;
     display: block;
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #D9D0D6;
 	font-weight: 700;
 }
 .navigation a
@@ -78,14 +93,14 @@ nav ul.hide {display: none;}
 	font-weight: 700;
 }
 .navigation a:hover {
-	color: #A65656;
-	background-color: #FFF2F1;
+	color: #3CA661;
+	background-color: #78BF91;
 }
 .responsive li {
 	display: block;
 }
 .active {
-	color: #A65656;
+	color: #78BF91;
 }
 #newNav {
 	display: flex;
@@ -100,9 +115,6 @@ nav ul.hide {display: none;}
 #newNav li:first-child {
 	display: none;
 }
-
-body
-{background-color:#A65656;}
 
 img {
 	width:400px;
