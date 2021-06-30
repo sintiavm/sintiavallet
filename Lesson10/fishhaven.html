@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script defer src="js/home-wireframes.js"></script>
+    
       <title>Preston Town Page</title>
   </head>
   <body>
@@ -18,15 +18,15 @@
     </picture>
     <section class="headings">
       <h1>Temperature Mood</h1>
-      <div class="x">Daily weather!</div>
+      <h2>Daily weather!</h2>
   </section>
   </header>
       <nav>
           <button onclick="toggleMenu()"
           id="menu">Menu</button>
           <ul id="newNav" class="hide">
-              <li><a href="home.html" class="active">Home</a></li>
-              <li><a href="preston.html">Preston</a></li>
+              <li><a href="preston.html" class="active">Home</a></li>
+              <li><a href="#">Preston</a></li>
               <li><a href="#">Soda Springs</a></li>
               <li><a href="#">Fish Haven</a></li>
               <li><a href="stormcenter.html">Storm Center</a></li>
@@ -38,9 +38,21 @@
             <div class="herodiv">
       <figure class="myphoto">
         <figcaption>
-        <img src="images/preston.jpeg"></div>   
-                   <h1>Welcome!</h1>
-                   <main>
+        <img src="images/preston.jpeg"></div>
+        <section class="weathersummary">
+          <h3  id= "weather" > Weather Summary </h3>
+          <p> High:<div id= "High" ></div> </p>
+          <p> Currently:  <div id= "Currently"></div></p>
+          <p>  Northward <div  id= "Wind"> Wind Direction: </div></p>
+          <p> Humidity: <div id= "Humidity" ></div></p>
+          <p> Wind Speed:  <div id= "Speed"> </div> </P>
+       </figcaption>
+     </figure>
+     </section>
+     </main>   
+
+    <h1>Welcome!</h1>
+    <main>
          <section>  
             <div class="cards"></div>
          

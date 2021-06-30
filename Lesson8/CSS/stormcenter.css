@@ -1,6 +1,12 @@
-header, nav {
+
+body {
+    background-color: #78BF91;
+    padding: 0;
+	margin: 0;
+}header, nav {
 	font-size: 14px;
 	font-family: 'Glegoo', serif;
+  
 }
 main, footer {
     font-family: 'Glegoo', serif;
@@ -14,27 +20,62 @@ footer {
 .headings h1 {
     font-size: 3rem;
 }
- nav {
-    font-size: 2rem;
+nav {
 	margin: 0 auto;
 	max-width: 960px;
- 	background-color: #77A612;
+	background-color: #3CA661;
+	color: #D9D0D6
 }
 nav li:hover{
-    background-color: #172601;
-    color: white;
+    background-color: #78BF91;
+    color: #D9D0D6;
 }
 nav li:focus{
     text-decoration: underline;
-    background-color: #F0ebd8;
-    color: beige;
+    background-color: #78BF91;
+    color: #D9D0D6;
 }
 nav ul.hide {display: none;}
+#newNav {
+    list-style: none;
+    text-align: center;
+	padding: 15px;
+}
+#menu{
+    margin: 0 auto;
+	max-width: 960px;
+	background-color: #3CA661;
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #D9D0D6;
+	font-weight: 700;
+}
+.navigation a
+ {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #D9D0D6;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #3CA661;
+	background-color: #78BF91;
+}
+.responsive li {
+	display: block;
+}
+.active {
+	color: #78BF91;
+}
 
-header {
-    background-color: #77A612;
+header, footer {
+	background-color: #3CA661;
 	padding: 5px 0;
-	display: flex;
+	display: flexbox;
 	align-items:center;
 	justify-content:center;
 	text-align: center;
@@ -44,11 +85,6 @@ header img {
 	height: auto;
 
 }
-header, nav {
-	font-size: 18px;
-	font-family: 'Glegoo', serif;
-}
-
 
 #newNav {
     display: flex;
@@ -70,33 +106,28 @@ header, nav {
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #D9D0D6;
 	font-weight: 700;
 }
 .navigation a:hover {
-	color: #77A612;
-	background-color: #FFF2F1;
+	color: #3CA661;
+	background-color: #919191;
 }
 .responsive li {
 	display: block;
 }
 .active {
-	color: #77A612;
+	color: #78BF91;
 }
 
-header, footer {
-	background-color: #77A612;
-	padding: 5px 0;
-	display: flexbox;
-	align-items:center;
-	justify-content:center;
-	text-align: center;
-}
+
 form {
     display: table;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
+    background-color: #D9D0D6;
       
         
 }
@@ -132,11 +163,14 @@ label {
 .btn {
     padding: 20px 0;
     border-radius: 20px;
-  padding: 10px 50px;
-  margin: 10px;
-  text-decoration: none;
-  width: 200px;
+    padding: 10px 50px;
+    margin: 10px;
+    text-decoration: none;
+    width: 200px;
     margin-left: 450px;
     margin-right: 100px;
     color:midnightblue;
 	}
+h1 {
+    color:#D9D0D6;
+}
