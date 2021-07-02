@@ -1,0 +1,43 @@
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
+
+.cards section {
+    background-color: #145374;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    
+}
+
+.cards section h3 {
+    margin-top: 0px;
+    color: white;
+    
+}
+
+.cards section p, .cards section h4 {
+    text-align: center;
+    color: white;
+}
+
+section.card0 {
+    order:2;
+}
+section.card {
+    order: 3;
+}
+#contact-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+
+
