@@ -67,7 +67,7 @@ nav ul.hide {display: none;}
 	color: #476C5E;
 }
 
-	body {
+body {
 	padding: 0;
 	margin: 0;
 	background-color:#B8ECD7;
@@ -168,13 +168,13 @@ p {
 	line-height: 1;
 }
 
-    #preston-heading{
+#preston-heading{
         font-family: 'Glegoo', serif;
         text-align: center;
         font-size: 2.3em;
         color:#D9D0D6;
     }
-    #forecast-section{
+#forecast-section{
         position: relative;
         margin: auto;
         display:flexbox;
@@ -196,6 +196,7 @@ p {
 	background-color: #CEF09D;
 	box-shadow: 0 0 30px #083643;
 	}
+
 
 
 
