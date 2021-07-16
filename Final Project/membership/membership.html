@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css2?family=Glegoo&display=swap' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="CSS/large.css">
+  <title>Chamber of Commerce</title>
+
+</head>
+
+<body>
+  <section>
+    <!--navigation------>
+    <nav>
+      <!--logo-->
+      <picture>
+        <img src="/images/logo.png" alt="logo">
+      </picture>
+      <!--menu-->
+      <ul>
+        <li><a href="/Home/chamber.html" class="active">Home</a></li>
+        <li><a href="/Home/City/city.html">City</a></li>
+        <li><a href="/Home/Directory/directory.html">Directory</a></li>
+        <li><a href="/Home/Gallery/gallery.html">Gallery</a></li>
+        <li><a href="/Home/membership/membership.html">New Member</a></li>
+      </ul>
+    </nav>
+    <form class="well form-horizontal" action=" " method="post" id="contact_form">
+      <fieldset>
+
+        <!-- Form Name -->
+        <legend>Membership Application</legend>
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">First Name</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="first_name" placeholder="Full Name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-4 control-label">Last name</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="first_name" placeholder="Last name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">E-Mail</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Phone Nº</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Business Name</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+              <input name="zip" placeholder="Business Name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Business address</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input name="phone" placeholder="Business address" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-4 control-label">Business website</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input name="phone" placeholder="Business websit" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-4 control-label">Business description</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input name="phone" placeholder="Business description" form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+      </fieldset>
+    </form>
+    <form class="well form-horizontal" action=" " method="post" id="contact_form">
+      <fieldset>
+
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Annual fees</label>
+          <div class="col-md-4 selectContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="Storm Region" class="form-control selectpicker">
+                <option value=" ">Please Select your fees</option>
+                <option> Non-profit ($100)</option>
+                <option>Bronze ($200)</option>
+                <option>Silver ($400)</option>
+                <option>Gold ($1000)</option>
+
+              </select>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+
+    <!-- Success message -->
+    <div class="alert alert-success" role="alert" id="success_message">Success <i
+        class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-warning">Send <span class="glyphicon glyphicon-send"></span></button>
+      </div>
+    </div>
+
+    <section2 class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__heading">
+            &copy; | Sintia V. Marin| <a href="https://www.byui.edu/online" id="byui">BYU-I Online Learning</a>
+          </div>
+          <ul class="social__media">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section2>
+
+    <script defer src="JS/city.js"></script>
+</body>
+
+</html>
