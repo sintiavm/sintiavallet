@@ -10,6 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/*resposnive menu*/
 .menu {
   background-color: #402124;
   height: 75px;
@@ -41,7 +42,7 @@ body {
   }
 
 .menu-items li:hover, li :active {
-  background-color:#A65656 (0,0,0 .3);
+  background-color:#A65656;
   transition: 4s;
 }
 .btn-menu {
@@ -84,8 +85,31 @@ ul.show {
     margin: 30px 0 0 0;
     line-height: 30px;
   }
+  .menu-items li:hover {
+    background: none;
+  }
+  .menu-items li a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  .menu-items li a:hover {
+    color: #402124;
+  }
+  .logo {
+    font-size: 25px;
+    padding-left: 35px;
+  }
 }
-
+@media screen  and (max-width:858px) and (orientation: landscape) {
+  .menu-items li {
+    margin: 5px 0 0 0;
+  }
+  .menu-items  {
+    overflow: scroll;
+    height: calc(100% - 65px);
+  }
+}
 
 
 
