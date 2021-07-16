@@ -260,8 +260,8 @@ h2 h3 h4{
     
  }
 #imgPersona{
-    width:600px;
-	height:400px;
+    width:550px;
+	height:350px;
 	border-radius:9px;
     box-shadow: 0 0 30px #402124;;
 	border: 4px solid beige;
@@ -275,7 +275,6 @@ h5 {
     left:200px;
     padding: 10px;
     text-align: justify;
-    margin:  40px;
-    
+    margin:  40px;    
 
 }

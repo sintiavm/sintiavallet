@@ -5,30 +5,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/Final Project/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
   <link href="CSS/large.css" rel="stylesheet">
   <link href="CSS/medium.css" rel="stylesheet">
 
-  <title>The Gallery Page </title>
+  <title>Gallery </title>
 </head>
 
 <body>
     <!--navigation------>
-    <nav>
+    <nav class="menu">
       <!--logo-->
       <picture>
         <img src="/Final Project/images/logo.png" alt="logo">
       </picture>
       <!--menu-->
-      <ul>
+      <ul class="menu_items">
         <li><a href="/Final Project/aqp.html" class="active">Home</a></li>
         <li><a href="/Final Project/City/city.html">City</a></li>
         <li><a href="/Final Project/Directory/directory.html">Directory</a></li>
         <li><a href="/Final Project/Gallery/gallery.html">Gallery</a></li>
         <li><a href="/Final Project/membership/membership.html">New Member</a></li>
-        </ul>
+      </ul>
+      <span class="btn_menu">
+        <i class="fa fa-bars"></i>
+      </span>
     </nav>
-   
    <h1> Picture Gallery</h1>
     <table>
       <thead>
@@ -66,5 +69,6 @@
      </div>   
     </section2>
     <script defer src="JS/gallery.js"></script>
+    <script defer src="/Final Project/Gallery/JS/appgallery.js"></script>
   </body>
 </html>
