@@ -1,11 +1,3 @@
-function toggleMenu()  {
-    console.log(document.getElementById("newNav").classList)
-    document.getElementById("newNav").classList.toggle("hide");
-}
-const cityid = "3947322";
-const APPID = "d8b4d6ca053785c88298e28b7fe8e164";
-
-
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityid}&appid=${APPID}&units=imperial`;
 fetch(apiURL)
   .then((response) => response.json())
@@ -31,4 +23,14 @@ fetch(apiURL)
     //document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
     //document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
     //document.getElementById('icon').setAttribute('alt', desc);
+  })
+
+  addEventListener('DOMContentLoaded', () => {
+    const btn-menu = document.querySelector('.btn-menu')
+    if (btn-menu) {
+      btn-menu.addEventListener('click', () => {
+        const menu-items = document.querySelector('.menu-items')
+        menu-items.classList.toggle('show')
+      })
+    }
   })
