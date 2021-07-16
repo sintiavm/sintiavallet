@@ -1,13 +1,99 @@
 @charset "utf-8";
-body{
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
   background-color: #F2EAD0;
   margin: 0px;
   padding: 0px;
 }
-ul {
-  list-style:none;
+.menu {
+  background-color: #402124;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #F2EAD0;
+  box-shadow: 5px 0 10px #8C7B46;
+}
+.menu-items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+
+}
+.menu-items li {
+  border-radius: 3px;
+  margin:0 5px;
 }
 
+.menu-items li a {
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display:block;
+  text-transform: uppercase;
+  color: #F2EAD0;
+  }
+
+.menu-items li:hover, li :active {
+  background-color:#A65656 (0,0,0 .3);
+  transition: 4s;
+}
+.btn-menu {
+  margin-right: 30px;
+  font-size:25px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+ul.show {
+  top: 65px;
+}
+
+@media screen and (max-width: 952px) {
+  .logo{
+    font-size: 30px;
+    padding-left: 35px;  
+}
+.menu-items li a {
+  font-size: 16px;
+}
+}
+@media screen and (max-width: 858px) {
+  .menu {
+    height: 65px;
+  }
+  .btn-menu {
+    display: inline-flex;
+  }
+  .menu-items {
+    position: fixed;width: 100vw;
+    height: calc(100% - 65px);
+    background: #402124;
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    flex-direction: column;
+  }
+  .menu-items li {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+  }
+}
+
+
+
+
+
+/*ul {
+  list-style:none;
+}
+*/
 section{
   width: 100%;
   height: 95vh;
@@ -16,7 +102,7 @@ section{
   background-size: cover;
 
 }
-nav{
+/*nav{
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -35,6 +121,7 @@ nav ul li {
   font-size: 15px;
   font-weight: 700;
 }
+*/
 .weathersummary {
 	background: #F2EAD0;
 	border: 1px solid #402124;
@@ -54,8 +141,6 @@ nav ul li {
   font-size: 1.2rem;
 }
    
-.active{}
-
 #contact-section1 {
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -157,6 +242,7 @@ h1 {
  font: 1.2em; 
  font-family: 'Glegoo', serif;
  }
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -167,7 +253,7 @@ main article {
   padding: 1em;
   background-color:  #A65656;
   color: #592525;
- border-radius: ;: 9px;
+ border-radius: 9px;
 }
 main picture img {
       width: 100%;
