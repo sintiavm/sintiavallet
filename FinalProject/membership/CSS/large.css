@@ -7,7 +7,7 @@
 }
 body{
    margin: 0px;
-   background-image: url("/Final Project/images/aqp-t.png");
+   background-image: url("/FinalProject/images/aqp-t.png");
    padding: 0px;
 }
 /*resposnive menu*/
@@ -113,7 +113,7 @@ ul.show {
 section{
   width: 100%;
   height: 95vh;
-  background-image: url("/Final Project/images/Arequipa.jpg");
+  background-image: url("/FinalProject/images/Arequipa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
  background-opacity: 1 ;
