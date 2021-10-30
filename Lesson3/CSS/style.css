@@ -155,9 +155,7 @@ footer a{
 }
 
 picture{
-    position: absolute;
-    top: 20px;
-    left: 300px;
+    display: flex;
 }
 
 
